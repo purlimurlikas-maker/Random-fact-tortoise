@@ -10,9 +10,7 @@ h1 {
   font-size: 2.5rem;
 }
  
-.tagline {
-  color: #62b6cb;
-}
+
 
 .hero {
   padding: 3rem 1rem 1rem;
@@ -26,7 +24,7 @@ main {
 }
 
 .fact-card {
-  border: 2px solid #235fd4;
+  border: 2px solid #5fa8d3;
   background: #cae9ff;
   padding: 2rem;
   display: flex;
@@ -53,6 +51,7 @@ main {
 .scene {
   width: 100%;
   border-radius: 10px;
+  border: 2px solid #5fa8d3;
 }
  
 button {
@@ -71,14 +70,15 @@ button:hover {
   transform: scale(1.05);
 }
  
-@keyframes shake {
-  0%, 100% { transform: translateX(0) rotate(0deg); }
-  20% { transform: translateX(-0.6rem) rotate(-4deg); }
-  40% { transform: translateX(0.6rem) rotate(4deg); }
-  60% { transform: translateX(-0.4rem) rotate(-2deg); }
-  80% { transform: translateX(0.4rem) rotate(2deg); }
-}
- 
-.globe.shaking {
-  animation: shake 600ms ease;
-}
+
+.made {
+border-radius: 10px;
+background-color:rgba(144, 223, 237, 0.25);
+border: 2px solid #5fa8d3;
+width: fit-content;
+padding: 3px;
+margin: 10px;
+backdrop-filter: blur(10px);
+  }
+
+
